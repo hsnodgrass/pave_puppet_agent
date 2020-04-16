@@ -1,0 +1,14 @@
+{
+  "description": "Removes old puppet agent and installs new version",
+  "parameters": {
+    "pe_master": {
+      "description": "Puppet Enterprise Master FQDN",
+      "type": "String"
+    },
+    "pe_masterport": {
+      "description": "Puppet master port <default 8140>",
+      "type": "String",
+      "default": "8140"
+    }
+  }
+}
